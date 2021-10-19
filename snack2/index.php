@@ -14,4 +14,24 @@ if (strlen($name) > 3 && strpos($mail , "@") && strpos($mail , ".") && is_numeri
 
 // echo $name . $mail . $age;
 
-?> 
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+<form action="">
+    <input type="text" name="name" placeholder="insert your name">
+    <input type="text" name="mail" placeholder="insert your mail">
+    <input type="text" name="age" placeholder="insert your age">
+    <input type="submit" value="invia">
+    
+</form>
+</body>
+</html>
